@@ -48,6 +48,25 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 320
+    },
+    "imageBy": {
+      "type": "string"
+    },
+    "imageAttributeUrl": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
     }
   }
 }

@@ -34,13 +34,17 @@
     },
     "socialMediaLinks": {
       "type": "json",
-      "required": true
+      "required": false
     },
     "blogs": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::blog.blog",
       "mappedBy": "author"
+    },
+    "profession": {
+      "type": "string",
+      "required": true
     }
   }
 }
